@@ -1,3 +1,7 @@
+:8080 {
+  respond "Hello 8080"
+}
+
 :1234 {
   reverse_proxy baserow.railway.internal:443
 }
