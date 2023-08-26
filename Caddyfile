@@ -2,6 +2,6 @@
   reverse_proxy baserow.railway.internal:443
 }
 
-:8080 {
+caddy-production-6018.up.railway.app {
   respond "Hello world"
 }
