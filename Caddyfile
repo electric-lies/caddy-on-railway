@@ -1,6 +1,7 @@
-:{$PORT}
+:{$PORT}, :1234 {
+  reverse_proxy baserow.railway.internal:443
+}
 
-reverse_proxy baserow.railway.internal:443
-
-:8080
-respond "Hello world"
+:8080{
+  respond "Hello world"
+}
