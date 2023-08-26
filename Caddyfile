@@ -1,4 +1,4 @@
-:{$PORT}, :1234 {
+:1234 {
   reverse_proxy baserow.railway.internal:443
 }
 
